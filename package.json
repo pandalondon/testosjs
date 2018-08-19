@@ -12,14 +12,15 @@
     "package:discover": "osjs-cli package:discover",
     "package:create": "osjs-cli package:create",
     "build": "webpack",
-    "watch": "webpack --watch"
+    "watch": "webpack --watch",
+    "postinstall": "node_modules/.bin/webpack"
   },
   "keywords": [
     "osjs"
   ],
   "author": "Anders Evenrud <andersevenrud@gmail.com>",
   "license": "BSD-2-Clause",
-  "devDependencies": {
+  "dependencies": {
     "@babel/core": "^7.0.0-rc.1",
     "@babel/plugin-transform-runtime": "^7.0.0-rc.1",
     "@babel/preset-env": "^7.0.0-rc.1",
