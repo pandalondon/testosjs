@@ -32,12 +32,12 @@
 // This is the server configuration tree.
 // https://manual.os-js.org/v3/config/#client
 //
-
+var port = process.env.PORT || 3000;
 const path = require('path');
 const root = path.resolve(__dirname, '../../');
 
 module.exports = {
   root,
-  port: 8000,
+  port: 3000,
   public: path.resolve(root, 'dist')
 }
