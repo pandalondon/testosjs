@@ -12,8 +12,7 @@
     "package:discover": "osjs-cli package:discover",
     "package:create": "osjs-cli package:create",
     "build": "webpack",
-    "watch": "webpack --watch",
-    "postinstall": "node_modules/.bin/webpack"
+    "watch": "webpack --watch"
   },
   "keywords": [
     "osjs"
