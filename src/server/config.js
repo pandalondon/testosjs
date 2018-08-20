@@ -42,4 +42,3 @@ module.exports = {
   port,
   public: path.resolve(root, 'dist')
 }
-app.listen(port);
