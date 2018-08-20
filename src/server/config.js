@@ -32,7 +32,6 @@
 // This is the server configuration tree.
 // https://manual.os-js.org/v3/config/#client
 //
-const express = require('express');
 const port = process.env.PORT || 3000;
 const path = require('path');
 const root = path.resolve(__dirname, '../../');
